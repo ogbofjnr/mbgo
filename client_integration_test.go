@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/senseyeio/mbgo"
-	"github.com/senseyeio/mbgo/internal/assert"
+	"github.com/ogbofjnr/mbgo"
+	"github.com/ogbofjnr/mbgo/internal/assert"
 )
 
 // newMountebankClient creates a new mountebank client instance pointing to the host
@@ -1151,7 +1151,7 @@ func TestClient_DeleteRequests_Integration(t *testing.T) {
 						t.Errorf("expected non-empty timestamp in %v", req)
 					}
 					// clear out the timestamp before doing a deep equality check
-					// see https://github.com/senseyeio/mbgo/pull/5 for details
+					// see https://github.com/ogbofjnr/mbgo/pull/5 for details
 					req.Timestamp = ""
 					actual.Requests[i] = req
 				}

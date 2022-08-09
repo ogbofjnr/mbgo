@@ -16,8 +16,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/senseyeio/mbgo/internal/assert"
-	"github.com/senseyeio/mbgo/internal/rest"
+	"github.com/ogbofjnr/mbgo/internal/assert"
+	"github.com/ogbofjnr/mbgo/internal/rest"
 )
 
 func TestClient_NewRequest(t *testing.T) {

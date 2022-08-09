@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/senseyeio/mbgo"
-	"github.com/senseyeio/mbgo/internal/assert"
+	"github.com/ogbofjnr/mbgo"
+	"github.com/ogbofjnr/mbgo/internal/assert"
 )
 
 type duplex interface {
